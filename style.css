@@ -1,0 +1,80 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: hsl(30, 54%, 90%) ;
+    font-family: Young Serif;
+}
+.container{
+    max-height: 100%;
+    max-width: 520px;
+    padding: 30px;
+    margin: 20px auto;
+    background:hsl(0, 0%, 100%) ;
+    border-radius: 10px;
+    color:  hsl(24, 5%, 18%);
+    font-size: 16px;
+
+}
+
+img{
+    width:100%;
+    border-radius: 10px;
+}
+
+.recipe-pre-info{
+    background: hsl(330, 100%, 98%);
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+
+.recipe-pre-info>.sub-bold{
+    color: hsl(332, 51%, 32%) ;
+    font-weight: 400;
+    margin-left: 20px;
+    font-size: 20px
+}
+.bold{
+    color:hsl(14, 45%, 36%) ;
+    font-weight: 400;
+    font-size: 25px;
+}
+span{
+    font-weight: bold;
+    color:hsl(24, 5%, 18%)
+    ;
+}
+
+table{
+    width:375px;
+    border-collapse: collapse;
+}
+tr{
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    border-width: 75%;
+}
+td{
+    padding: 10px 30px;
+}
+
+@media screen and(max-width:375) {
+    .container{
+        max-width: 375;
+        height: fit-content;
+        padding: 0;
+        margin: 0;
+        box-sizing: content-box;
+    }
+
+    body{
+        margin: 0;
+        padding: 0;
+        
+    }
+    
+}
